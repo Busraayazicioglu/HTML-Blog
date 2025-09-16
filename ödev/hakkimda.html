@@ -4,14 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+<style>
+     i{
+    font-size: 20px;
+    color: rgb(131, 16, 16);
+    }
+     .page-links li a{
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        
+    }
+  .page-links li a:hover{
+    background-color: rgb(131, 16, 16);
+
+  }
+    .page-links{
+        
+        list-style-type: none;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .page-links li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .menu-container{
+        background-color: black;
+        margin: 10px auto;
+        padding: 20px;
+        border: 2px solid rgb(131, 16, 16);
+        border-radius: 8px;
+        
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    .image{
+        height: auto;
+        width: 400px;
+        gap: 30px;
+        margin: 10px;
+    }
+    .image-content{
+        text-align: left;
+        display: flex;
+    }
+.yazi{
+    flex: 1;
+}
+.yazi a{
+    color: red;
+    text-decoration: none;
+    
+}
+h3{
+    color:rgb(131, 16, 16) ;
+}
+        .ilgi-alani{
+            display: inline-block;
+        }
+
+</style>
 <body>
     
+    <i class="fa-solid fa-house"></i>
+
    
-     <header>
-        <div class="page-title">
-    <h1>HAKKIMDA</h1>
-    </div>
+     <div class="menu-container">
+
+    
      
         <nav class="page-links">
     <li> <a href="index.html">Anasayfa</a></li>
@@ -19,32 +86,56 @@
     <li><a href="projelerim.html">Projelerim</a></li>
     <li><a href="iletisim.html">İletişim</a></li>
      </nav>
-     
-        </header>
+      </div>
+        
         <main>
-        <h3>Beni Tanıyın...</h3>
+         <h3><i>Beni Tanıyın...</i></h3>
         <section class="image-content">
-           <img src="resim/WhatsApp Görsel 2025-09-09 saat 17.09.29_3c56394b.jpg" alt="Görsel bulunamadı." align="left"
-        width="250" height="400">
-        </section>
-            <p>
-                <article>
-     
+            <img class="image" src="resim/b.jpg" alt="Görsel">
+            <article class="yazi">
+     <p></p>
+        <h3>Ben Kimim?</h3>
         Merhaba ben Büşra Yazıcıoğlu.
         Fırat Üniversitesi Teknoloji Fakültesi Yazılım Mühendisliği bölümü 4. Sınıf
-        öğrencisiyim. <br>
+        öğrencisiyim. <p>
         Öğrenmeyi, üretmeyi ve yeni projeler geliştirmeyi seviyorum.  
         Bloğumda sizinle deneyimlerimi ve
-        projelerimi paylaşıyor olacağım.  <br>
+        projelerimi paylaşıyor olacağım. </p>
         Üniversite son sınıfa kadar olan süreçte çeşitli projeler yaptım. 
         Yapay zeka, web tasarım, mobil uygulamalar, oyun geliştirme gibi alanlarda yaptığım projeler için <a href="projelerim.html">Projelerim</a> kısmını inceleyebilirsiniz.
       
-       <br> Deneyimlerim için ise <a href="https://www.linkedin.com/in/busraayazicioglu/" target="_blank">Linkedin</a> profilimi inceleyebilirsiniz.
+       <p>Deneyimlerim için ise <a href="https://www.linkedin.com/in/busraayazicioglu/" target="_blank">Linkedin</a> profilimi inceleyebilirsiniz.</p>
 </p>
-        
-        </p>
+        <h3>Hangi Teknolojilere İlgiliyim?</h3>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>.NET</li>
+            <li>C#</li>
+        </ul>
+        <h3>İlgi Alanlarım Neler?</h3>
+        <ul class="ilgi-alani">
+            <h4>Yazılım Noktasında;</h4>
+            <li>FrontEnd Teknolojileri</li>
+            <li>Web Geliştirme</li>
+            <li>Mobil Uygulama Geliştirme</li>
+        </ul>
+        <ul class="ilgi-alani">
+            <h4>Kişisel Noktada;</h4>
+            <li>Kitap Okumak</li>
+            <li>Bilgisayar Oyunları</li>
+            <li>Film/Dizi İzlemek</li>
+        </ul>
+       
         </article>
+            <!-- <img src="resim/WhatsApp Görsel 2025-09-09 saat 17.09.29_3c56394b.jpg" alt="Görsel bulunamadı." align="left"
+        width="250" height="400"> --> 
+        </section>
+            
+                
          </main>
+         
 
 </body>
 </html>
