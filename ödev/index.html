@@ -5,54 +5,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
-
-<body>
-
-
-    <header>
-        <div class="page-title">
-<h1>ANASAYFA</h1>
-        </div>
-
-
-   
-    <nav class="page-links">
-       
-            <li><a href="index.html">Anasayfa</a></li>
-            <li><a href="hakkimda.html">Hakkımda</a></li>
-            <li><a href="projelerim.html">Projelerim</a></li>
-            <li><a href="iletisim.html">İletişim</a></li>
+<style>
+    i{
+    font-size: 20px;
+    color: rgb(131, 16, 16);
+    }
+   .page-links li a{
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
         
+    }
+  .page-links li a:hover{
+    background-color: rgb(131, 16, 16);
+
+  }
+    .page-links{
+        
+        list-style-type: none;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .page-links li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .menu-container{
+        background-color: black;
+        margin: 10px auto;
+        padding: 20px;
+        border: 2px solid rgb(131, 16, 16);
+        border-radius: 8px;
+        
+    }
+    body{
+       color: white;
+        background-color: black;
+        /* background-image: url(resim/starfield-demo-2048x1221.png);
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: 100vh; */
+    }
+    h3{
+        color: white;
+    }
+  .image-content{ 
+    
+    text-align: center;
+   
+      } 
+      .image{
+        height: auto;
+        width: 45%;
+        display: inline-block;
+        margin: 10px;
+      }
+      h2{
+        color: rgb(131, 16, 16);
+      }
+    
+     
+    
+    
+    
+
+</style>
+<body>
+   
+<i class="fa-solid fa-house">
+    
+</i>
+
+
+   <div class="menu-container">
+    
+    <nav>
+       <ul class="page-links">
+          <li><a href="index.html">Anasayfa</a></li>
+             <li><a href="hakkimda.html">Hakkımda</a></li>
+             <li><a href="projelerim.html">Projelerim</a></li>
+             <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
     </nav>
-     </header>
+     </div>
+    <p>
+     
 <main>
-    <section class="image-content">
-    <img src="resim/202102111427148587_202011182209170733_yazilim-gelistirme.jpg" alt="Görsel bulunamadı."
-        align="bottom" height="500" width="490">
-    <img src="resim/2018-12-13-1.png" alt="Görsel bulunamadı." align="bottom" height="500" width="517">
-    <img src="resim/iletisim-teknoloji-m.jpg" alt="Görsel bulunamadı." align="right" height="500" width="490">
+    
+     <section class="image-content">
+       <img class="image" src="resim/yazilim-uzmani.jpg" alt="Görsel">
+       <img class="image" src="resim/yazilim_1170x436.webp" alt="Görsel">
+        
+      <!-- <img src="resim/202102111427148587_202011182209170733_yazilim-gelistirme.jpg" alt="Görsel bulunamadı." 
+        align="bottom" height="200" width="490">
+    <img src="resim/2018-12-13-1.png" alt="Görsel bulunamadı." align="bottom" height="200" width="517">
+    <img src="resim/iletisim-teknoloji-m.jpg" alt="Görsel bulunamadı." align="right" height="200" width="490">  -->
+     </section> 
+</p> 
+<br>
+
+
+<section class="soru-kutusu">
+    <h2>YAZILIM NEDİR? | YAZILIMCI NE İŞ YAPAR?</h2>
+    <p>
+        Yazılım, elektronik aygıtların belirli bir işi yapmasını sağlayan programların tümüne verilen isimdir. Bir başka deyişle, var olan bir problemi çözmek amacıyla bilgisayar dili kullanılarak oluşturulmuş anlamlı anlatımlar bütünüdür.
+    </p>
+    <p>
+        Yazılımcı, bilgisayar yazılımı geliştiren ve yazılım mühendisliği alanında uzmanlaşmış kişidir. Yazılımcılar, farklı programlama dillerini kullanarak yazılım uygulamaları, mobil uygulamalar, web siteleri ve diğer bilgisayar programlarını tasarlar, geliştirir ve sürdürürler.
+    </p>
+    <h2>YAZILIM NASIL ÖĞRENİLİR?</h2>
+    <P>
+       
+        Sağlam temeller üzerinde yazılım öğrenmek için planlamayı doğru şekilde yapmak gerekir. Öncelikle yazılım öğrenmenin, aslında programlama dili öğrenmek olduğu bilinmelidir.
+   </P>
+   <h2>PROGRAMLAMA DİLİ SEÇİMİ NASIL YAPILIR?</h2>
+   <p>
+     Günümüzde yaygın olarak kullanılan farklı programlama dilleri vardır ve bunların kendi içerisinde avantajları ve dezavantajları bulunur. Tercih edilme durumları, gelecekteki kullanım yoğunluklarına dair tahminler farklıdır. Dolayısıyla yazılıma başlamak isteyenler, ilk olarak hangi dilden başlayacaklarına karar vermelidir.
+   </p>
+   <p>Programlama dili seçimi, hangi alanda çalışılacağının da seçimidir. Web geliştiricisi, oyun geliştiricisi, iOS ve Android geliştiricisi gibi farklı alanların bulunduğu yazılım dünyasına, bu alanlardan biri seçilerek girilir. Alan seçiminden sonra ise buna uygun programlama dili seçilir ve böylece yazılıma başlanmış olunur.</p>
+<p>Yazılım, adeta birbirine geçmiş farklı alanların bulunduğu komplike bir dünyadır. Zaten bu yüzden birçok kişi tam olarak nereden başlayacağını bilememektedir. Dolayısıyla alan ve kodlama dili seçimi, hiç kolay olmayacaktır. Ancak bu seçim ne kadar hızlı ve kararlı yapılırsa, süreç o kadar kolay olacaktır.</p>
 </section>
-    <br>
-    <br>
-    <br>
-    <hr>
+<br>
+<hr>
     
         <h3>İLETİŞİM FORMU</h3>
        
 <section class="form-area">
         <form>
-            <input type="text" placeholder="İsim" height="20" width="30">
+            <input type="text" placeholder="İsim" height="20" width="30" required>
             <br></br>
 
-            <input type="text" placeholder="Soyisim" height="20" width="30">
+            <input type="text" placeholder="Soyisim" height="20" width="30" required>
             <br></br>
 
 
 
-            <input type="email" placeholder="E-mail">
+            <input type="email" placeholder="E-mail" required>
             <br></br>
-            <input type="number" placeholder="Telefon No"> <br></br>
+            <input type="tel"placeholder="Telefon No" required> <br></br>
             <b>Cinsiyet:</b>
             Kadın<input type="radio" name="cinsiyetRadio">
             Erkek <input type="radio" name="cinsiyetRadio"> <br></br>
