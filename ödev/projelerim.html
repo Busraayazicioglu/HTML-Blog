@@ -5,70 +5,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
+<style>
+     i{
+    font-size: 20px;
+    color: rgb(131, 16, 16);
+    }
+     .page-links li a{
+        text-decoration: none;
+        font-size: 25px;
+        color:white;
+        
+    }
+  .page-links li a:hover{
+    background-color: rgb(131, 16, 16);
+
+  }
+    .page-links{
+        
+        list-style-type: none;
+        font-size: 15px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+    .page-links li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .menu-container{
+        background-color: black;
+        margin: 10px auto;
+        padding: 20px;
+        border: 2px solid rgb(131, 16, 16);
+        border-radius: 8px;
+        
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    .proje a {
+        color: red;
+        text-decoration: none;
+    }
+    .proje li b {
+        color:  rgb(131, 16, 16)
+    }
+</style>
 
 <body>
-    <header>
-    <h1>PROJELERİM</h1>
-    <hr>
-  
-    <main>
+    <i class="fa-solid fa-house"></i>
+     <div class="menu-container">
+  <nav class="page-links">
+        <li><a href="index.html">Anasayfa</a></li>
+        <li><a href="hakkimda.html">Hakkımda</a></li>
+        <li><a href="projelerim.html">Projelerim</a></li>
+        <li><a href="iletisim.html">İletişim</a></li>
+      </nav>
+    </div>
+    <main> 
+        
     <article>
-    
+    <ul class="proje">
         <li><b>AYAKKABI SATIŞ MOBİL UYGULAMASI</b></li>
         Bu proje, ayakkabı satışı odaklı bir mobil uygulamanın geliştirilmesini hedeflemektedir. <br>
         Kullanıcılar, geniş bir ayakkabı koleksiyonundan seçim yapabilecekleri, arama yapabilecekleri ve satın alma
         işlemlerini tamamlayabilecekleri bir platform sunmayı amaçlamaktadır.
-        <br> Projeyi incelemek için <a href="https://github.com/Busrayzc/Mobilproje" target="_blank">Mobil Projem</a> bağlantısını
+        <br> Projeyi incelemek için <a href="https://github.com/Busraayazicioglu/Mobilproje" target="_blank">Mobil Projem</a> bağlantısını
         kullanabilirsiniz.
-        </article>
+        
         <p>
-            <article>
+           
             <li><b>KİTAP SATIŞ SİTESİ</b></li>
             Web sitemin amacı; genellikle kitapları müşterilere sunmak , satmak ve kitapseverlere geniş bir kitap
             yelpazesi sunarak okuma deneyimlerini zenginleştirmektedir. <br>
             Kullanıcının istediği kitapları bulmasına yardımcı olur, çeşitli türlerdeki kitapları sunar ve
             kullanıcıların kolayca arama yaparak istedikleri kitapları satın almalarına olanak sağlar. <br>
-            Projeyi incelemek için <a href="https://github.com/Busrayzc/KitapSatisSitesi" target="_blank">Kitap Satış Sitesi</a>
+            Projeyi incelemek için <a href="https://github.com/Busraayazicioglu/KitapSatisSitesi" target="_blank">Kitap Satış Sitesi</a>
             bağlantısını kullanabilirsiniz.
         </p>
-        </article>
+        
         <p>
-            <article>
+          
             <li><b>SORGU EKRANI PROJESİ</b></li>
             Bu proje desktop tabanlı bir proje olup kurumdan alınan toplu ödeme verilerini işleyip kullanıcıların bu
             verilerle etkileşimde bulunmasını sağlar. <br>
             Kullanıcılar ödemeleri sorgulayabilir, görüntüleyebilir ve gerçekleştirebilir. <br>
-            Projeyi incelemek için <a href="https://github.com/Busrayzc/SorguEkrani" target="_blank">Sorgu Ekranı Projesi</a>
+            Projeyi incelemek için <a href="https://github.com/Busraayazicioglu/SorguEkrani" target="_blank">Sorgu Ekranı Projesi</a>
             bağlantısını kullanabilirsiniz.
         </p>
-        </article>
+       
         <p>
-            <article>
+           
             <li><b>HASTANE OTOMASYONU</b></li>
             Bu proje, bir hastanenin temel yönetim süreçlerini dijitalleştirmeyi amaçlayan bir Hastane Otomasyon
             Sistemidir. <br>
             Hasta kayıtları, doktor randevuları, poliklinik işlemleri gibi işlevler merkezi bir sistem üzerinden
             yönetilebilir. <br>
-            Projeyi incelemek için <a href="https://github.com/Busrayzc/HastaneOtomasyonu" target="_blank">Hastane Otomasyonu
+            Projeyi incelemek için <a href="https://github.com/Busraayazicioglu/HastaneOtomasyonu" target="_blank">Hastane Otomasyonu
                 Projesi</a> bağlantısını kullanabilirsiniz.
 
         </p>
-        </article>
+        
         <p>
-            <article>
+           
            <li> <b>HALKA ARZ HARİTASI</b></li>
             Halka arza ilgili kişilerin interaktif harita sayesinde şirket bilgilerine
             detaylıca erişerek istenilen verilere ulaşması amaçlanmaktadır. <br>
             Türkiye de halka arzı onaylanan şirketlerin sektör bazli gruplamaları,
             tavan değerleri, gelirlerinin nerelerde kullanıldığı ve geriye dönük halka arz
             içeriklerine erişimini sağlar. <br>
-            Projeyi incelemek için <a href="https://github.com/Busrayzc/HalkaArzHaritasi" target="_blank">Halka Arz Haritası</a>
+            Projeyi incelemek için <a href="https://github.com/Busraayazicioglu/HalkaArzHaritasi" target="_blank">Halka Arz Haritası</a>
             bağlantısını kullanabilirsiniz.
         </p>
-        </article>
+       
         <p>
-            <article>
+           
            <li> <b>ŞİFRELERİ ÇÖZMEK OYUN PROJESİ</b></li>
             Şifreleri Çözmek, çocuklara yönelik olarak tasarlanmış eğitici bir şifre çözme oyunudur. Proje, kriptografi
             temelli bulmacalar üzerinden kullanıcıların hem eğlenmesini hem de problem çözme becerilerini geliştirmesini
@@ -78,13 +132,14 @@
             Bu oyun, uçak içi eğlence sistemi konsepti için geliştirilmiştir. Çocuklar farklı seviyelerdeki şifreleri
             çözerek ilerler ve her seviyede yeni bir bulmacayla karşılaşır. <br>
             Proje, temel olarak Python ile geliştirilmiş olup masaüstü uygulaması şeklinde çalışmaktadır. <br>
-            Projeyi incelemek için <a href="https://github.com/Busrayzc/sifrecozme" target="_blank">Oyun Projem</a> bağlantısını kullanabilirsiniz.
+            Projeyi incelemek için <a href="https://github.com/Busraayazicioglu/sifrecozme" target="_blank">Oyun Projem</a> bağlantısını kullanabilirsiniz.
         </p>
+      
         </article>
+        </ul>
          </main>
-        </header>
         
-   
+    
 </body>
 
 </html>
