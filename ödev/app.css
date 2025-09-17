@@ -43,7 +43,7 @@ h3 {
 .image-content {
   text-align: center;
 }
-.image {
+.image-homepage {
   height: auto;
   width: 45%;
   display: inline-block;
@@ -53,7 +53,7 @@ h2 {
   color: rgb(131, 16, 16);
 }
 
-.image {
+.image-about {
   height: auto;
   width: 400px;
   gap: 30px;
@@ -61,7 +61,7 @@ h2 {
   border-radius: 8px;
   border: 3px solid rgb(131, 16, 16);
 }
-.image-content {
+.image-content2 {
   text-align: left;
   display: flex;
 }
